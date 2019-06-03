@@ -1,11 +1,11 @@
-package edu.pe.utec.solver.repositories;
+package repositories;
 
 import java.util.Stack;
 
 public class Output {
-    private static Stack<String> output = new Stack<String>();
+    private Stack<String> output = new Stack<>();
 
-    public static Stack<String> getStack() {
+    public Stack<String> getStack() {
         return output;
     }
 }

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/cs2019.calculator.iml" filepath="$PROJECT_DIR$/cs2019.calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/java/main.iml" filepath="$PROJECT_DIR$/src/main/java/main.iml" />
     </modules>
   </component>
 </project>

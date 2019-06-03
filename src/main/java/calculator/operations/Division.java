@@ -1,9 +1,9 @@
-package edu.pe.utec.solver.operations;
+package operations;
 
 
 public class Division implements Operation {
     @Override
-    public double operation(int operando1, int operando2) {
+    public double operation(double operando1, double operando2) {
         if (operando2 == 0) {
             throw new IllegalArgumentException("El divisor no puede ser 0.");
         }

@@ -1,11 +1,11 @@
-package edu.pe.utec.solver.repositories;
+package repositories;
 
 import java.util.Stack;
 
 public class Calculator {
-    private static Stack<Double> calculator = new Stack<Double>();
+    private Stack<Double> calculator = new Stack<>();
 
-    public static Stack<Double> getStack() {
+    public Stack<Double> getStack() {
         return calculator;
     }
 }

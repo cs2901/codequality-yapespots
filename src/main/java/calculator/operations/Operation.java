@@ -1,5 +1,5 @@
-package edu.pe.utec.solver.operations;
+package operations;
 
 public interface Operation {
-    double operation(int operando1, int operando2);
+    double operation(double operando1, double operando2);
 }

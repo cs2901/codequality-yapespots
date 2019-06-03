@@ -1,11 +1,11 @@
-package edu.pe.utec.solver.repositories;
+package repositories;
 
 import java.util.Stack;
 
 public class Operator {
-    private static Stack<String> operator = new Stack<String>();
+    private Stack<String> operator = new Stack<>();
 
-    public static Stack<String> getStack() {
+    public Stack<String> getStack() {
         return operator;
     }
 }
